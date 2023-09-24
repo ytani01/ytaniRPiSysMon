@@ -56,7 +56,7 @@ while true; do
 
     DATE_TIME=`date +'%Y/%m/%d %T'`
 
-    echo "$DATE_TIME  CPU: $TEMP_CPU,  ARM: ${HZ_ARM_STR} ,  Core: ${HZ_CORE_STR}  $VOLTS_CORE V  $THROTTLED"
+    echo "$DATE_TIME  CPU: $TEMP_CPU  ARM: ${HZ_ARM_STR}  Core: ${HZ_CORE_STR}  $VOLTS_CORE V  $THROTTLED"
 
     if [ $INTERVAL_SEC -eq 0 ]; then
 	break
